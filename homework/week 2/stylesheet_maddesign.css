@@ -2,33 +2,202 @@
 	property:value;
 }*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 body{
-	background-color: #FF69B4;
+	background-color: #f2d1c9;
 }
-a{
-	color: rgb(255, 255, 0, 50);
-	font-family: sans-serif;
+#logo{
+	background-color: #f5f4f3;
 }
 h2{
-	color: teal;
-	font-family: "Roboto";
-	font-weight: "100";
+	color: #8f8e8e;
+	font-family: "IBM Plex Sans";
+	font-weight: "200";
+	font-size: 10px;
+	background-color: #edecec;
 }
-#first-section{
-	background-color: #FFFFFF;
+h3{
+	color: #505050;
+	font-family: "IBM Plex Sans";
+	font-size: 30px;
+	font-weight: 500;
+	background-color: #f5f4f3;
 }
-.homeworks{
-	background-color: #00FF00;
+h4{
+	color: #3a7af6;
+	font-family: "Comfortaa";
+	font-size: 26px;
+	font-weight: 700;
 }
-h1{
-	color: teal;
-	font-family: "Roboto";
-	font-weight: "100";
+h5{
+	color: #40404c;
+	font-family: "IBM Plex Sans";
+	font-weight:"700";
+	font-size: 40px;
+	background-color: #f5f4f3;
 }
-#first-section h1{
-	color: orange;
-	font-family: "Roboto";
-	font-weight: "300";
+p{
+	color: #505050;
+	font-family: "IBM Plex Sans";
+	font-size: 20px;
+	font-weight: 300;
+}
+#mad-designs{
+	background-color: #f5f4f3;
+}
+#mad-designs-paragraph{
+	color: #afaeae;
+	font-size: 30px;
+	font-style: "IBM Plex Sans";
+}
+#notes {
+	color: #e1e0df;
+	font-family: "IBM Plex Sans";
+	font-weight: 500;
+	font-size: 20px;
+	list-style-type: none;
+	background-color: #f5f4f4;
+}
+#notes-title {
+	color: #505050;
+	font-family: "IBM Plex Sans";
+	font-weight: 500;
+	font-size: 20px;
+	list-style-type: none;
+	background-color: #f5f4f4;
+}
+#reminders {
+	color: #505050;
+	font-family: "IBM Plex Sans";
+	font-weight: 300;
+	font-size: 20px;
+	background-color: #f5f4f3;
+}
+#video {
+	background-color: #f5f4f3;
+}
+#latest-work{
+	background-color: #f5f4f3;
+}
+#social-media {
+	background-color: #f5f4f4;
+}
+#map {
+
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.button {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 30px 50px 30px 50px;
+  color: #505050;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.button:hover {opacity: 0.6}
+
+.button1 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 20px 10px 20px 10px;
+  color: #505050;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+}
+.button2 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 20px 30px 20px 10px;
+  color: #505050;
+  text-align: left;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 400px;
+  height: 600px;
+}
+.button3 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 20px 40px 20px 10px;
+  color: #505050;
+  text-align: left;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 300px;
+  height: 500px;
+}
+.button4 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 20px 40px 20px 10px;
+  color: #505050;
+  text-align: left;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 300px;
+  height: 400px;
+}
+.button5 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 20px 10px 20px 10px;
+  color: #505050;
+  text-align: left;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 400px;
+  height: 250px;
+}
+.button6 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 5px 10px 20px 40px;
+  color: #505050;
+  text-align: left;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 700px;
+  height: 400px;
+}
+.button7 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 30px 50px 30px 30px;
+  color: #505050;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 40px;
+  height: 130px;
+}
+.button8 {
+  background-color: #fcfbfa;
+  border: none;
+  padding: 30px 50px 30px 30px;
+  color: #505050;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 300px;
+  height: 350px;	
 }
