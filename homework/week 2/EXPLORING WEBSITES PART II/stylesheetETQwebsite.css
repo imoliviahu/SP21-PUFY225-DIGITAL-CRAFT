@@ -1,0 +1,156 @@
+/*selector{
+  property:value;
+}*/
+.topnav {
+  overflow: hidden;
+  background-color: #ebebec;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 13px 30px 1px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: none;
+  color: black;
+}
+.topnav-right {
+  float: right;
+  background-color: #ebebec;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #595856;
+  font-size: 15px;
+  padding-right: 80px;
+}
+.welcome{
+  width: 100%;
+  height: auto;
+}
+body{
+  background-color: #ffffff;
+}
+h1{
+  color: #181818;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  font-size: 25px;
+  padding-left: 30px;
+}
+h2{
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #595856;
+  font-size: 15px;
+}
+p{
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #595856;
+  font-size: 15px;
+}
+.columns1 {
+  float: left;
+  width: 33.33%;
+  padding-top: 50px;
+}
+.columns2 {
+  float: left;
+  width: 50%;
+}
+.firstcolumns3 {
+  float: left;
+  width: 36%;
+  font-size: 15px;
+}
+.secondcolumns3 {
+  float:left;
+  width: 16%;
+  font-size: 15px;
+}
+.thirdcolumns3 {
+  float:left;
+  width: 16%;
+  font-size: 15px;
+}
+.fourthcolumns3 {
+  float:left;
+  width: 16%;
+  font-size: 15px;
+}
+.fifthcolumns3 {
+  float:left;
+  width: 16%;
+  font-size: 15px;
+}
+.firstcolumns4 {
+  float: left;
+  width: 50%;
+  padding-bottom: 30px;
+}
+.secondcolumns4 {
+  float: left;
+  width: 30%;
+  width: 300px;
+}
+.thirdcolumns4 {
+  float: right;
+  width: 20%;
+  font-size: 10px;
+}
+.first-row-images{
+  width: 300px;
+  length: 300px;
+  padding-bottom: 20px;
+}
+.second-row-images{
+  width: 720px;
+  length: 620px;
+  padding-bottom: 20px;
+}
+#second-section{
+  margin: 30px;
+  color: #313131;
+}
+#third-section{
+  margin: 30px;
+  color: #313131;
+}
+#fourth-section{  
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #595856;
+  padding-left: 20px;
+}
+.extraspace{
+  width: 120px;
+}
+.extraspace2{
+  width: 300px;
+}
+.footer {
+  position: static;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: #181818;
+}
+a:visited {
+    text-decoration: none;
+    color: #181818;
+}
+a:hover {
+    text-decoration: underline;
+    color: #181818;
+}
+a:active {
+    text-decoration: none;
+    color: #181818;
+}
