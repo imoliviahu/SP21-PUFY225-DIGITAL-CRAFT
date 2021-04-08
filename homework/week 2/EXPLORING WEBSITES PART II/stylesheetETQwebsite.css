@@ -57,60 +57,60 @@ p{
   font-size: 15px;
 }
 
-.columns1 {
+.row1 {
   float: left;
   width: 33.33%;
   padding-top: 50px;
 }
 
-.columns2 {
+.row2 {
   float: left;
   width: 50%;
 }
 
-.firstcolumns3 {
+.firstrow3 {
   float: left;
   width: 36%;
   font-size: 15px;
 }
 
-.secondcolumns3 {
+.secondrow3 {
   float:left;
   width: 16%;
   font-size: 15px;
 }
 
-.thirdcolumns3 {
+.thirdrow3 {
   float:left;
   width: 16%;
   font-size: 15px;
 }
 
-.fourthcolumns3 {
+.fourthrow3 {
   float:left;
   width: 16%;
   font-size: 15px;
 }
 
-.fifthcolumns3 {
+.fifthrow3 {
   float:left;
   width: 16%;
   font-size: 15px;
 }
 
-.firstcolumns4 {
+.firstrow4 {
   float: left;
   width: 50%;
   padding-bottom: 30px;
 }
 
-.secondcolumns4 {
+.secondrow4 {
   float: left;
   width: 30%;
   width: 300px;
 }
 
-.thirdcolumns4 {
+.thirdrow4 {
   float: right;
   width: 20%;
   font-size: 10px;
