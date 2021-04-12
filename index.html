@@ -1,3 +1,4 @@
+<!-- coding between script tags are from https://www.w3schools.com/ -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,31 +8,63 @@
 	</head>
 	<body>
 		<h1>OLIVIA'S HOMEWORK ASSIGNMENTS</h1>
-		<h2>Week 1</h2>
-		<p>
+		<h2 class="collapsible">Week 1</h2>
+		<p class="content">
 			<a href="https://canvas.newschool.edu/courses/1553524/discussion_topics/6667277">WHO ARE WE</a>
 			<br><a href="https://github.com/imoliviahu/SP21-PUFY225-DIGITAL-CRAFT">GITHUB REPOSITORY</a>
 			<br><a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/HTML%20HW%20Boilerplate%20-%20Olivia%20Hu.html">HTML HOMEWORK BOILERPLATE</a>
 			<br><a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/homework/week%201/Website%201%20copy.html">EXPLORING WEBSITES PART I</a>
 		</p>
 
-		<h2>Week 2</h2>
-		<p>
+		<h2 class="collapsible">Week 2</h2>
+		<p class="content">
 			<a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/homework/week%202/WEBPAGE%20EXPLORATION%20CODE%201/maddesignwebsitestructure.html">WEB EXPLORATION CODE 1</a>
 			<br><a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/homework/week%202/EXPLORING%20WEBSITES%20PART%20II/ETQwebsite.html">EXPLORING WEBSITES PART II</a>
 			<a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/homework/week%202/EXPLORING%20WEBSITES%20PART%20II/bellamancinidesignwebsite.html"> ...more</a>
 			<br><a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/index.html">UPDATE HOMEWORK PAGE</a>
 		</p>
 
-		<h2>Week 3</h2>
-		<p>N/A yet</p>
-		<h2>Week 4</h2>
-		<p>N/A yet</p>
-		<h2>Week 5</h2>
-		<p>N/A yet</p>
-		<h2>Week 6</h2>
-		<p>N/A yet</p>
-		<h2>Week 7</h2>
-		<p>N/A yet</p>
+		<h2 class="collapsible">Week 3</h2>
+		<p class="content">
+			<b>OBJECT OR PLACE</b> : A place that interests me is New York City because it is most possibly where I see myself in the future living at and working in. A city is a place where I can draw inspiration from and always stay motivated in. I appreciate the mixture of all kinds of people and cultures. I want to experience what life is like in the city. I want to be able to one day know the streets and locations of cool places. My partner agrees and we both can not wait to move into the city!
+			<br><a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/homework/week%203/P5.JS%20INSPIRATION%20SKETCH%201.html">P5.JS INSPIRATION SKETCH 1</a>
+			<br><a href="https://imoliviahu.github.io/SP21-PUFY225-DIGITAL-CRAFT/homework/week%203/P5.JS%20INSPIRATION%20SKETCH%202.html">P5.JS INSPIRATION SKETCH 2</a>
+			<br><a href="https://canvas.newschool.edu/courses/1553524/assignments/8839832?module_item_id=20336488">P5.JS INSPIRATION SKETCH 3</a>
+		</p>
+		<h2 class="collapsible">Week 4</h2>
+		<p class="content">
+			N/A yet
+		</p>
+		<h2 class="collapsible">Week 5</h2>
+		<p class="content">
+			N/A yet
+		</p>
+		<h2 class="collapsible">Week 6</h2>
+		<p class="content">
+		N/A yet
+		</p>
+		<h2 class="collapsible">Week 7</h2>
+		<p class="content">
+		N/A yet
+		</p>
+
+		<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}
+		</script>
+		
 	</body>
+
 </html>

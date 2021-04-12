@@ -1,3 +1,4 @@
+/* collapsible, active, and content class code is from https://www.w3schools.com/
 /*selector{
   property:value;
 }*/
@@ -14,10 +15,10 @@ h1{
   font-style: italic;
   font-size: 30px;
   font-weight: 300;
-  text-align: left;
-  padding: 15px 0px 0px 15px;
+  text-align: right;
+  padding: 15px 15px 0px 15px;
   height: 50px;
-  width: 1455px;
+  width: 1485px;
   background-color: #f5a658;
 }
 
@@ -39,6 +40,27 @@ p{
   text-align: center;
 }
 
+.collapsible {
+  color: white;
+  font-family: "Roboto";
+  font-size: 25px;
+  border-style: solid;
+  border-width: 5px 1px 1px 5px;
+  border-color: white;
+  padding: 5px 0px 5px 20px; 
+  outline: none;
+  cursor: pointer;
+}
+
+.active, .collapsible:hover {
+  background-color: #f5a658;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: none;
+}
 a:link {
     text-decoration: none;
     color: white;
