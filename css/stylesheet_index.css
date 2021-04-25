@@ -12,13 +12,12 @@ body{
 h1{
   color: white;
   font-family: "Playfair Display";
-  font-style: italic;
   font-size: 30px;
   font-weight: 300;
   text-align: right;
   padding: 15px 15px 0px 15px;
   height: 50px;
-  width: 1485px;
+  width: 1720px;
   background-color: #f5a658;
 }
 
@@ -38,14 +37,6 @@ p{
   color: #f5a658;
   font-size: 20px;
   text-align: center;
-}
-
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 15%;
 }
 
 .collapsible {
