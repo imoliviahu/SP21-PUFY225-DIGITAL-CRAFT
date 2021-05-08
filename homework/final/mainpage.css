@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+
+body{
+  background-color: black;
+  margin: 20px;
+}
+
+h1{
+  color: black;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  width: 200px;
+  background-color: white;
+}
+
+.collapsible {
+  color: white;
+  font-family: "Roboto";
+  font-size: 25px;
+  border-style: solid;
+  border-width: 5px 1px 1px 5px;
+  border-color: white;
+  padding: 5px 0px 5px 20px; 
+  outline: none;
+  cursor: pointer;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: none;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: white; 
+}
+a:active {
+    text-decoration: none;
+    color: white;
+}
