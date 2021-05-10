@@ -1,9 +1,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
 
 body{
-  background-color: black;
+  background-color: white;
   margin: 20px;
+}
+
+#title{
+  color: black;
+  font-family: "Playfair Display";
+  font-size: 70px;
+  font-weight: 600;
+  text-align: left;
+  padding: none;
+  width: auto;
+}
+#title2{
+  color: black;
+  font-family: "Quicksand";
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding: none;
+  width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 h1{
@@ -17,20 +44,27 @@ h1{
   background-color: white;
 }
 
+p{
+  color: black;
+  font-style: "Playfair Display";
+  font-weight: 600;
+  font-size: 40px;
+  text-align: left;
+  padding: none;
+}
+
 .collapsible {
-  color: white;
-  font-family: "Roboto";
-  font-size: 25px;
+  color: black;
   border-style: solid;
-  border-width: 5px 1px 1px 5px;
-  border-color: white;
-  padding: 5px 0px 5px 20px; 
+  border-color: black;
+  padding: 15px 15px 15px 15px; 
   outline: none;
   cursor: pointer;
 }
 
 .active, .collapsible:hover {
   background-color: black;
+  color: white;
 }
 
 .content {
@@ -38,6 +72,62 @@ h1{
   overflow: hidden;
   background-color: none;
 }
+
+#imgmanhattan {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+#imgqueens {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.rentprice {
+  position: absolute;
+  color: black;
+  visibility: hidden;
+
+}
+
+#imgmanhattan:hover .rentprice {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+#imgqueens:hover .rentprice {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+#imgthebronx:hover .rentprice {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+#imgbrooklyn:hover .rentprice {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+#imgstatenisland:hover .rentprice {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+
 a:link {
     text-decoration: none;
     color: white;

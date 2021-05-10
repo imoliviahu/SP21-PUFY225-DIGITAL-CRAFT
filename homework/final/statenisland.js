@@ -1,5 +1,5 @@
 //constant variable for radius of circles
-const r = 5;
+const w = 5;
 function setup(){
 	createCanvas(400, 400);
 	noStroke();
@@ -8,14 +8,14 @@ function setup(){
 //used a loop to create a pattern
 function draw(){
   background("white");
-      for (let i = 0; i < width; i += 10) {
-      for (let j = 0; j < height; j += 10) {
+      for (let i = 0; i < width; i += w*2) {
+      for (let j = 0; j < height; j += w*2) {
 //applied random variable for color of circles
       randFillR = random(255);
       randFillG = random(255);
       randFillB = random(255);
       fill(randFillR, randFillG, randFillB);
-      circle(i, j, r);
+      square(i, j, w);
     }
   }
 }

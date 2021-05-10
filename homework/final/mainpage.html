@@ -6,14 +6,63 @@
 		<meta charset = "utf-8">
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js" integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ==" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js" integrity="sha512-a5hlZKgpC1LVAuKgVeXdP0D9Yfacj0hLtNdzx9zFMkIWRrQyO37KtIPiqArGmVuaBYu3ON6Vt0N3+G/JaLXQYQ==" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.js" integrity="sha512-KxzVm+IqxNNq0+SzT/zzd5PHxY4LPrN+v5gZJ6+JKqjeU3Cr4y/djAg5eNlKDWurn1SeKZpql/yeOMWblMSzOg==" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.min.js" integrity="sha512-wM+t5MzLiNHl2fwT5rWSXr2JMeymTtixiw2lWyVk1JK/jDM4RBSFoH4J8LjucwlDdY6Mu84Kj0gPXp7rLGaDyA==" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<h1> Manhattan </h1>
-		<h1> Queens </h1>
-		<h1> Brooklyn </h1>
-		<h1> The Bronx </h1>
-		<h1> Staten Island </h1>
+		<h1 id="title">In NYC, </h1>
+		<h1 id="title2"> THE AVERAGE RENT FOR A 1 BEDROOM APARTMENT IN ...</h1>
+		<h2> 1 square = 1 $ </h2>
+
+		<h1 class="collapsible"> Manhattan </h1>
+		<div class="content" id="imgmanhattan">
+		<p> is... </p>
+			<img class="center" src="manhattan.svg">
+		<p class="rentprice"> $2,750 </p>
+		</div>
+
+		<h1 class="collapsible"> Queens </h1>
+		<div class="content" id="imgqueens">
+		<p> is... </p>
+			<img class="center" src="queens.svg">
+		<p class="rentprice"> $2,000 </p>
+		</div>
+
+		<h1 class="collapsible"> Brooklyn </h1>
+		<div class="content" id="imgbrooklyn">
+		<p> is... </p>
+			<img class="center" src="brooklyn.svg">
+		<p class="rentprice"> $2,400 </p>
+		</div>
+
+		<h1 class="collapsible"> The Bronx </h1>
+		<div class="content" id="imgthebronx">
+		<p> is... </p>
+			<img class="center" src="thebronx.svg">
+		<p class="rentprice"> $1,620 </p>
+		</div>
+
+		<h1 class="collapsible"> Staten Island </h1>
+		<div class="content" id="imgstatenisland">
+		<p> is... </p>
+			<img class="center" src="statenisland.svg">
+		<p class="rentprice"> $1,600 </p>
+		</div>
+
+		<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}
+
+		</script>
 	</body>
 </html>
