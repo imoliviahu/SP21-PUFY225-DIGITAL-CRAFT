@@ -1,4 +1,4 @@
-
+/* import fonts from google */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
 
@@ -6,7 +6,7 @@ body{
   background-color: white;
   margin: 20px;
 }
-
+/* id attributes for the webpage titles with different characteristics */
 #title{
   color: black;
   font-family: "Playfair Display";
@@ -25,14 +25,14 @@ body{
   padding: none;
   width: auto;
 }
-
+/* to center the pattern sketches on webpage */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
+/* style elements of collapsible tab when unclicked */
 h1{
   color: black;
   font-family: "Playfair Display";
@@ -43,7 +43,7 @@ h1{
   width: 200px;
   background-color: white;
 }
-
+/* style elements of rent price number */
 p{
   color: black;
   font-style: "Playfair Display";
@@ -52,7 +52,7 @@ p{
   text-align: left;
   padding: none;
 }
-
+/* style elements of collapsible tab when unclicked */
 .collapsible {
   color: black;
   border-style: solid;
@@ -61,37 +61,24 @@ p{
   outline: none;
   cursor: pointer;
 }
-
+/* style elements of collapsible tab when hovered over and clicked */
 .active, .collapsible:hover {
   background-color: black;
   color: white;
 }
-
+/* used to categorize objects wanted to display in a collapsible */
 .content {
   display: none;
   overflow: hidden;
   background-color: none;
 }
-
-#imgmanhattan {
-  position: relative;
-  height: auto;
-  width: auto;
-}
-
-#imgqueens {
-  position: relative;
-  height: auto;
-  width: auto;
-}
-
+/* style elements of average rent price number and keeps number hidden until hovered over */
 .rentprice {
   position: absolute;
   color: black;
   visibility: hidden;
-
 }
-
+/* controls appearance of sketch and rent number when hovered over */
 #imgmanhattan:hover .rentprice {
   visibility: visible;
   opacity: 1;
@@ -127,20 +114,3 @@ p{
   text-align: center;
 }
 
-
-a:link {
-    text-decoration: none;
-    color: white;
-}
-a:visited {
-    text-decoration: none;
-    color: white;
-}
-a:hover {
-    text-decoration: none;
-    color: white; 
-}
-a:active {
-    text-decoration: none;
-    color: white;
-}
